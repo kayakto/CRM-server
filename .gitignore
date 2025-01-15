@@ -1,3 +1,4 @@
-certificates/
+nginx/certificates/
 frontend/
 backend/
+postgres-data/
