@@ -63,7 +63,7 @@ services:
   telegram-bot:
     container_name: 'telegram-bot-crm'
     build:
-      context: ./telegram-service
+      context: ./backend/telegram-service
       dockerfile: Dockerfile
     depends_on:
       - db-postgres
